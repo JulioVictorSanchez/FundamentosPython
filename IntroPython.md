@@ -32,5 +32,11 @@ print("Hola Mundo!")
 Como se puede observar, esta instrucción solo es una línea en Python. En otros lenguajes se tendría que definir una estructura básica con funciones y más, solo para imprimir 
 un pequeño texto en consola.
 
+Observemos el código, lo primero que podemos notar es la llamada función _print_; esta función muestra por consola el texto que nosotros le indiquemos (el texto debe de
+colocarse dentro de los parentesís). Otra punto importante son las comillas, estas indican que el texto es una _cadena_ o _string_ (que veremos más adelante) y no el nombre
+de otra cosa. Una cadena es un tipo  de dato que representa un texto.
+
+⚠⚠ **Nota:** Cuando no se hace uso de las comillas para mandar a imprimir una cadena, el interprete tomara ese texto como una variable y por lo tanto obtendremos un mensaje de error. ⚠⚠
+
 
 
