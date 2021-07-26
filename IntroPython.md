@@ -18,3 +18,19 @@ Python es un lenguaje de programación interpretado cuya principal filosofía es
 - **Programación sana y productiva**. Es sencillo de aprender, con una curva de aprendizaje moderada. Es muy fácil comenzar a programar y fomenta la productividad.
 - **Ordenado y limpio**. Es muy legible y sus módulos están bien organizados.
 - **Portable**. Es un lenguaje muy portable. Podemos usarlo en prácticamente cualquier sistema de la actualidad.
+
+# Primer programa en Python 💻🐍
+Para comprender la sintaxis del lenguaje Python, comenzaremos con un programa muy simple. Por tradición en todo lenguaje de programación (Java, C, C#, C++) se inicia con una
+aplicación muy simple llamada _Hola Mundo_. Esta aplicación es solo un script que genera el texto _Hola Mundo!_ en la consola. En Python esto es muy simple y se realiza con 
+la siguiente línea de código: 
+
+```python
+#Imprime en consola el texto "Hola Mundo!"
+print("Hola Mundo!")
+```
+
+Como se puede observar, esta instrucción solo es una línea en Python. En otros lenguajes se tendría que definir una estructura básica con funciones y más, solo para imprimir 
+un pequeño texto en consola.
+
+
+
