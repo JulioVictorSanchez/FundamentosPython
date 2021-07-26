@@ -3,4 +3,4 @@ En este repositorio inicial, aprenderemos los fundamentos teóricos y prácticos
 
 A continuación se presenta la estructura inicial de esta guia:
 
-- [¿Qué es Python?](https://github.com/JulioVictorSanchez/FundamentosPython/edit/main/README.md)
+- [¿Qué es Python?](https://github.com/JulioVictorSanchez/FundamentosPython/blob/main/IntroPython.md)
