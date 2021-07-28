@@ -46,15 +46,12 @@ print ("Operador = | El valor de variable 'c' es: ", c)
 #Su equivalencia seria c = c + 3
 c += valorA
 print ("Operador += | El valor de variable 'c' es: ", c)
-
 #Su equivalencia seria c = c - 3
 c -= valorA
 print ("Operador -= | El valor de variable 'c' es: ", c)
-
 #Su equivalencia seria c = c * 3
 c *= valorA
 print ("Operador *= | El valor de variable 'c' es: ", c)
-
 #Su equivalencia seria c = c / 3
 c /= valorA
 print ("Operador /= | El valor de variable 'c' es: ", c)
@@ -65,4 +62,38 @@ Los operadores de comparación se utilizan, como su nombre indica, para comparar
 
 <div class="tg-wrap"><table><tbody><tr><td align="center" colspan="3"><b>Operadores de comparación</b></td></tr><tr><td align="center"><b>Operador</b></td><td align="center"><b>Nombre</b></td><td align="center"><b>Descripción</b></td></tr><tr><td>==</td><td>Igual</td><td>Devuelve un True si el operando de la izquierda es igual que el de la derecha; False en caso contrario.</td></tr><tr><td>!=</td><td>Distinto</td><td>Devuelve un True si el operando de la izquierda es igual que el de la derecha; False en caso contrario.<br></td></tr><tr><td>&gt;</td><td>Mayor que</td><td>Devuelve un True si el operando de la izquierda es estrictamente mayor que el de la derecha; False en caso contrario.</td></tr><tr><td>&lt;</td><td>Menor que</td><td>Devuelve un True si el operando de la izquierda es estrictamente menor que el de la derecha; False en caso contrario.</td></tr><tr><td>&gt;=</td><td>Mayor igual que</td><td>Devuelve un True si el operando de la izquierda es mayor o igual que el de la derecha; False en caso contrario.</td></tr><tr><td>&lt;=</td><td>Menor igual que</td><td>Devuelve un True si el operando de la izquierda es menor o igual que el de la derecha; False en caso contrario.</td></tr></tbody></table></div>
 
-Los objetos de diferentes tipos, excepto los tipos numéricos, nunca se comparan igual. El operador == siempre está definido, pero para algunos tipos de objetos (por ejemplo, objetos de clase) es equivalente a is.
+Los operadores de comparación se suelen utilizar en condicionales o ciclos (temas que veremos más adelante). Cuando una comparación es correcta devuelve un _True_, caso contrario devuelve _False_. A continuació se presentan algunos ejemplos.
+```python
+valorUno = 10
+valorDos = 11
+
+#Igual que
+print(valorUno == valorDos)
+#Mayor que
+print(valorUno > valorDos)
+#Menor que
+print(valorUno < valorDos)
+#Distinto que
+print(valorUno != valorDos)
+```
+⚠ **NOTA:** Los objetos de diferentes tipos, excepto los tipos numéricos, nunca se comparan igual. El operador == siempre está definido, pero para algunos tipos de objetos (por ejemplo, objetos de clase) es equivalente a _is_. ⚠
+
+## Operadores lógicos
+A la hora de operar con valores booleanos, tenemos a nuestra disposición los operadores _and_, _or_ y _not_. Las operaciones and, or y not realmente no devuelven True o False, sino que devuelven uno de los operandos como veremos en el cuadro de abajo. En la siguiente tabla se muestran los operadores lógicos utilizados en Python.
+
+<div class="tg-wrap"><table><tbody><tr><td align="center"  colspan="2"><b>Operadores lógicos</b></td></tr><tr><td align="center"><b>Operador</b></td><td align="center" ><b>Descripción</b></td></tr><tr><td>and</td><td>Ambos tienen que ser verdaderos.</td></tr><tr><td>or</td><td>Al menos uno tiene que ser verdadero.</td></tr><tr><td>not</td><td>Niega la entrada.</td></tr></tbody></table></div>
+
+A continuación se presentan algunos ejemplos de que como trabajan estos operadores.
+```python
+#Operador AND
+print(True and False)
+print(True and True)
+print(False and False)
+#Operador OR
+print(True or False)
+print(True or True)
+print(False or False)
+#operador NOT
+print (not True)
+print (not (not False))
+```
