@@ -34,6 +34,21 @@ miTexto = "Hola Mundo"
 ```
 ⚠ **NOTA:** Se puede elegir el nombre que desee para nombrar sus variables. Sin embargo, no puede utilizar las palabras reservadas por el lenguaje (Por ejemplo. _int_, _dict_, etc.) Otro punto a destacar es que no se permite que el nombre de una variable comience con un **número** o **carácter especial** que no sea el **guion bajo (_)** ⚠
 
+## Usando variables
+Posteriormente a que hemos definido las variables, podemos empezar a hacer uso de ellas. Por ejemplo, podemos mandar a imprimir sus valores.
+```python
+print(miNumero)
+print(miTexto)
+```
+⚠ **NOTA:** Como no hacemos uso de comillas en la función _print_, el texto que está dentro del paréntesis se utiliza como un nombre de variable. Por lo tanto, el intérprete imprime los valores de 10 y "Hola Mundo". ⚠
+
+## Conversión de tipos de datos
+En ocasiones obtendremos un valor con un tipo de dato con el que no podremos trabajar correctamente. Por ejemplo, podríamos obtener una cadena como entrada, pero esa cadena contiene un número como valor. En este caso, _"10"_ no es lo mismo que _10_ y no podemos hacer cálculos matemáticos con una cadena, incluso si el texto representa un número. Para solucionar esta problemática tendremos que realizar un _cast_ o _casting_ lo cual significa convertir un tipo de dato a otro. 
+```python
+valor = "10"
+numero = int(valor)
+```
+⚠ **NOTA:** La conversión de tipos se realiza mediante la función del tipo de dato específico al cual se quiere convertir. En este caso, estamos convirtiendo una cadena a un entero usando la palabra clave _int_. De igual manera este proceso se puede revertir, mediante el uso de la palabra clave _str_. Este punto es muy importante y se utiliza con mucha frecuencia. ⚠
 
 
 
