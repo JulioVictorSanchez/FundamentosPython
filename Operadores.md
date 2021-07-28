@@ -81,7 +81,7 @@ print(valorUno != valorDos)
 ## Operadores lógicos
 A la hora de operar con valores booleanos, tenemos a nuestra disposición los operadores _and_, _or_ y _not_. Las operaciones and, or y not realmente no devuelven True o False, sino que devuelven uno de los operandos como veremos en el cuadro de abajo. En la siguiente tabla se muestran los operadores lógicos utilizados en Python.
 
-<div class="tg-wrap"><table><tbody><tr><td align="center"  colspan="2"><b>Operadores lógicos</b></td></tr><tr><td align="center"><b>Operador</b></td><td align="center" ><b>Descripción</b></td></tr><tr><td>and</td><td>Ambos tienen que ser verdaderos.</td></tr><tr><td>or</td><td>Al menos uno tiene que ser verdadero.</td></tr><tr><td>not</td><td>Niega la entrada.</td></tr></tbody></table></div>
+<div class="tg-wrap"><table><tbody><tr><td align="center"  colspan="2"><b>Operadores lógicos</b></td></tr><tr><td align="center"><b>Operador</b></td><td align="center" ><b>Descripción</b></td></tr><tr><td>and</td><td>Solo se evalúa el segundo operando si el primero es verdadero.</td></tr><tr><td>or</td><td>Solo se evalúa el segundo operando si el primero es falso.</td></tr><tr><td>not</td><td>Niega la entrada, por lo que tiene menos prioridad que otros operadores no booleanos.</td></tr></tbody></table></div>
 
 A continuación se presentan algunos ejemplos de que como trabajan estos operadores.
 ```python
