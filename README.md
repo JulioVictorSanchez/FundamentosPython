@@ -7,5 +7,6 @@ A continuación se presenta la estructura inicial de esta guia:
 - [Variables y tipos de datos](https://github.com/JulioVictorSanchez/FundamentosPython/blob/main/TiposDatos.md)
 - [Operadores](https://github.com/JulioVictorSanchez/FundamentosPython/blob/main/Operadores.md)
 - [Entrada de datos por teclado](https://github.com/JulioVictorSanchez/FundamentosPython/blob/main/EntradaDatos.md)
+- [Condicionales](https://github.com/JulioVictorSanchez/FundamentosPython/blob/main/Condicionales.md)
 
 
